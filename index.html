@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Matemáticas</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Funções matemÁticas em javascript</h1>
+    <label>Digite um numero Negativo ou Positivo</label>
+    <input type="number" id="valor">
+    <br><br>
+    
+    <h2>Maior ou Menor de 5 numero</h2>
+    <input type="number" id="n1">
+    <input type="number" id="n2">
+    <input type="number" id="n3">
+    <input type="number" id="n4">
+    <input type="number" id="n5">
+    <button onclick="raizQuadrada()">Raiz Quadrada</button>
+    <button onclick="valorAbsoluto()">Valor Absoluto</button>
+    <button onclick="arredondar()">Arredondar</button>
+    <button onclick="maiormenor()">Maior Menor</button>
+    <button onclick="sortear()">Sortear</button>
+    <button onclick="lancarDado()">Lançar 1 Dado</button>
+    <button onclick="lancarDoisDados()">Lançar 2 Dados</button>
+
+    <br><br>
+
+    <h2>Jogo de Adivinhação</h2>
+    <input type="number" id="palpite" placeholder="Digite um número de 1 a 100">
+    <button onclick="adivinhar()">Adivinhar</button>
+    <br><br>
+
+    <input type="number" id="num1" placeholder="Número base">
+    <input type="number" id="num2" placeholder="Número expoente">
+    <button onclick="potencia()">Potência</button>
+    <br><br>
+    
+    <hr>
+    <div id="resultado"></div>
+</body>
+
+</html>
